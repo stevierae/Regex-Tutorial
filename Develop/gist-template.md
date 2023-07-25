@@ -72,4 +72,8 @@ Lookarounds will match a group of characters either before or after a pattern, b
 
 ## Author
 
-Stefanie Fisher is a registered nurse enrolled in Penn's coding bootcamp who has a newfound passion for full stack web development. She currently resides in Philadelphia, PA but is always mentally on a tropical island. Please visit link(s) for more information:
+Stefanie Fisher is a registered nurse enrolled in Penn's coding bootcamp who has a newfound passion for full stack web development. She currently resides in Philadelphia, PA but is always mentally on a tropical island. 
+
+Please visit link(s) for more information:
+
+git@github.com:stevierae/Regex-Tutorial.git
