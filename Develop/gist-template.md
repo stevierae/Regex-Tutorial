@@ -7,17 +7,17 @@
 The above line of code is a regex that validates whether or not input is an email address. This code will be broken down by individual regex items in order to explain what it does.
 
 ## Table of Contents
-Anchors
-Quantifiers
-OR Operator
-Character Classes
-Flags
-Grouping and Capturing
-Bracket Expressions
-Greedy and Lazy Match
-Boundaries
-Back-references
-Look-ahead and Look-behind
+- [Anchors](#anchors)
+- [Quantifiers](#quantifiers)
+- [OR Operator](#or-operator)
+- [Character Classes](#character-classes)
+- [Flags](#flags)
+- [Grouping and Capturing](#grouping-and-capturing)
+- [Bracket Expressions](#bracket-expressions)
+- [Greedy and Lazy Match](#greedy-and-lazy-match)
+- [Boundaries](#boundaries)
+- [Back-references](#back-references)
+- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ### Anchors (#anchors)
 An anchor is a piece of text which marks the beginning and/or the end.
