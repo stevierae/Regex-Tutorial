@@ -26,7 +26,7 @@ An anchor is a piece of text which marks the beginning and/or the end.
 
 In our example the "^" defines the beginning of the string and the "$" defines the end of the string.
 
-- ### Quantifiers (#quantifiers)
+### Quantifiers 
 
 A quantifier specifies how many instances of a character, group, or character class must be present in the input for a match to be found. Quantifiers can be considered either lazy or greedy. 
 
@@ -34,20 +34,20 @@ A quantifier specifies how many instances of a character, group, or character cl
 
 The plus + will match one or more of the preceding token. In this case it will attempt to match [a-z0-9_\.-]. {2,6} indicates two to six characters in the group [a-z\.].
 
-- ### OR Operator (#or-operator)
+### OR Operator 
 The [] OR operator is used in this regex. For example, [a-z0-9_\.-] means any character a-z (case insensitive), any digit 0-9, _, ., or -. 
 
-- ### Character Classes (#character-classes)
+### Character Classes 
 A character class will match one out of several characters. The order of the characters within the character class does not matter.
 
 /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 A character set [ABC] will match any single character in the set. In the example [a-z0-9_\.-] will match any character within the square brackets. A range [A-Z] will match a character included between the two characters separated by the hyphen. In the example a-z will match any character between a and z. 0-9 will match any character between 0 and 9.
 
-- ### Flags (#flags)
+ ### Flags 
 Flags will always follow the closing forward slash of an expression, and modifies its behavior of searching. A flag changes the default searching behavior of a regular expression. It makes a regex search in a different way 
 
-- ### Grouping and Capturing (#grouping-and-capturing)
+### Grouping and Capturing 
 /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 In our example () parentheses are used to capture a group. The first set of () captures the username of the email address, the second set captures the domain name, and the final set captures the domain.
