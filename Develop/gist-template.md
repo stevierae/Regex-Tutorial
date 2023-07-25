@@ -1,6 +1,4 @@
-# Title (replace with your title)
-
-Fundamentals of Regex Tutorial
+# Fundamentals of Regex Tutorial
 
 ## Summary
 
